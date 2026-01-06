@@ -9,7 +9,7 @@ public class CriteriaChecker {
         String digits = "1234567890";
         String specials = "!@#$%^&*()-+=";
 
-        if (password.length() < 8) {
+        if (password.length() >= 8) {
             countMet++;
         }
         for (int i = 0; i < upperAlphabet.length(); i++) {
