@@ -17,7 +17,7 @@ public class PasswordCheckerApp {
             System.out.println(feedback);
         }
         else {
-            System.out.println("\nPrint you have no feedback! Good job!");
+            System.out.println("\nYOU HAVE NO FEEDBACK! Good job!");
         }
     }
 }
