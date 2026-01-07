@@ -2,6 +2,9 @@ package org.hillcrest.chapter6.password;
 
 import java.util.Scanner;
 
+/**
+ * Runs a program with a user interface designed to determine the strength of an inputted password and suggest improvements
+ */
 public class PasswordCheckerApp {
     public static void main(String[] args) {
         System.out.println("Welcome to Password Strength Checker!\n");
