@@ -1,7 +1,14 @@
 package org.hillcrest.chapter6.password;
 
+/**
+ * Generates a single string with feedback to improve a weak password
+ */
 public class FeedbackGenerator {
 
+    /**
+     * Generates one string of feedback based on 5 criteria to improve a weak password
+     * @return - one string of feedback to improve the password
+     */
     public static String generateFeedback(String password) {
         boolean lengthCheck = false;
         boolean upperCheck = false;
