@@ -5,6 +5,9 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * Tests the CriteriaChecker Test
+ */
 public class CriteriaCheckerTest {
     @Test
     public void testFunctions_WeakestPasswordShouldBeCorrect() {
