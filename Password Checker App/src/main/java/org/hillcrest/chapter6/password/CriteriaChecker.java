@@ -1,7 +1,14 @@
 package org.hillcrest.chapter6.password;
 
+/**
+ * Evaluates a password based on specific criteria
+ */
 public class CriteriaChecker {
 
+    /**
+     * Evaluates the numerical strength of a password (from 0 to 5) based on if it meets five specific criteria
+     * @return - the numerical strength of a password
+     */
     public static int evaluateCriteria(String password) {
         int countMet = 0;
         String upperAlphabet = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
@@ -39,6 +46,10 @@ public class CriteriaChecker {
         return countMet;
     }
 
+    /**
+     * Determines the strength of a password (weak, moderate, or strong) based on its numerical strength
+     * @return - the strength of the password (weak, moderate, strong)
+     */
     public static String determineStrength(int score) {
         String strength = "";
         if (score <= 2) {
