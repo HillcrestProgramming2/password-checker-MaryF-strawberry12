@@ -6,7 +6,7 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 /**
- * Tests the CriteriaChecker Test
+ * Tests the CriteriaChecker class
  */
 public class CriteriaCheckerTest {
     @Test
